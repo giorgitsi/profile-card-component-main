@@ -1,0 +1,89 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(185, 75%, 39%) ;
+
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+
+body:before{
+    content: "";
+    background-image: url(./images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* 
+Dark cyan: hsl(185, 75%, 39%)
+Very dark desaturated blue: hsl(229, 23%, 23%)
+Dark grayish blue: hsl(227, 10%, 46%)
+
+### Neutral
+
+Dark gray: hsl(0, 0%, 59%) */
+
+.content{
+    text-align: center;
+   
+}
+
+.victor{
+    margin-top: 70px;
+}
+
+.london{
+    opacity: 0.5;
+    margin-top: 10px;
+}
+
+.like{
+    opacity: 0.5;
+    margin-top: 5px;
+}
+
+
+
+.card{
+    background-color: white;
+  
+    border-radius: 10px;
+    overflow: hidden;
+    
+}
+
+.card-header{
+    position: relative;
+}
+
+.profile-img{
+    position:absolute;
+    left: 50%;
+    bottom: 0px;
+    transform: translate(-50%, 50%);
+    border-radius: 100%;
+    border: 2px solid white;
+    display: block;
+}
+
+
+.card-footer{
+    display: flex;
+    justify-content:space-around ;
+    margin-top: 70px;
+    margin-bottom: 20px;
+   
+
+}
+
+span{
+    opacity: 0.6;
+}
